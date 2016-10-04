@@ -3,7 +3,29 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Morrice Portfolio' });
 });
+
+/* GET about page. */
+router.get('/about', function (req, res, next) {
+    res.render('about', { title: 'About Morrice' });
+    
+});
+
+/* GET contact page. */
+router.get('/contact', function (req, res, next) {
+    res.render('contact', { title: 'Contact Morrice' });
+});
+
+/* GET projects page. */
+router.get('/projects', function (req, res, next) {
+    res.render('projects', { title: 'Projects by Morrice' });
+});
+
+/* GET services page. */
+router.get('/services', function (req, res, next) {
+    res.render('services', { title: 'Services by Morrice' });
+});
+
 
 module.exports = router;
