@@ -16,21 +16,51 @@
 <div class="header clearfix" data-pg-collapsed>
     <nav data-pg-collapsed>
         <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active">
-                <a href="#">Home</a>
+
+            <li  role="presentation" 
+			<% if (page === 'Home')
+			{ %> 
+				class = "active"			
+			<% } %>
+			>			
+            <a href="/">Home</a>
+
             </li>
-            <li role="presentation">
-                <a href="about">About</a>
+            <li role="presentation" 
+			<% if (page === 'About')
+			{ %>
+				class = "active"			
+			<% } %>
+			>
+			<a href="/about">About</a>
+
             </li>
-            <li role="presentation">
-                <a href="contact">Contact</a>
-            </li><li role="presentation">
-                <a href="projects">Projects</a>
-            </li>
-			<li role="presentation">
-                <a href="services">Services</a>
+            <li role="presentation" 
+			<% if (page === 'Contact')
+			{ %>
+				class = "active"			
+			<% } %>
+			>
+            <a href="/contact">Contact</a>
+
+            </li><li role="presentation"
+			<% if (page === 'Projects')
+			{ %>
+				class = "active"			
+			<% } %>
+			>
+			<a href="/projects">Projects</a>
+
+            </li><li role="presentation"			
+			<% if (page === 'Services')
+			{ %>
+				class = "active"			
+			<% } %>
+			>
+           <a href="/services">Services</a>
             </li>
         </ul>
-    </nav>
+
+	    </nav>
     <h3 class="text-muted">Website Portfolio</h3>
 </div>
