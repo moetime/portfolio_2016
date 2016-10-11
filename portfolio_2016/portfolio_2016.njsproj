@@ -36,7 +36,6 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
-    <Compile Include="testing_folder.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\blocks.css" />
     <Content Include="public\stylesheets\style-library-1.css" />
