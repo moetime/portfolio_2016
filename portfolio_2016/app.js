@@ -8,7 +8,13 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var app = express();
+var app = express( );
+
+var server = app.listen( 443, function ()
+{
+    console.log( 'Ready on port %d', server.address( ).port );
+} );
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
