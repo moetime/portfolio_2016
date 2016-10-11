@@ -8,9 +8,6 @@ gulp.task( "deploy", function ()
       .pipe( zip( "deploy.zip" ) )
       .pipe( gulp.dest( "./" ) );
 } );
-
-
-
 const fs = require( 'fs' );
 
 gulp.task( 'compile', function ()
