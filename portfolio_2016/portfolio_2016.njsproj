@@ -34,9 +34,12 @@
     <Compile Include="app.js" />
     <Compile Include="gulpfile.js" />
     <Compile Include="routes\index.js" />
+    <Compile Include="routes\server.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
+    <Content Include="deploy.zip" />
     <Content Include="package.json" />
+    <Content Include="Procfile.txt" />
     <Content Include="public\stylesheets\blocks.css" />
     <Content Include="public\stylesheets\style-library-1.css" />
     <Content Include="public\stylesheets\style.css" />
