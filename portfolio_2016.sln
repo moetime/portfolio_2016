@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "portfolio_2016", "portfolio_2016\portfolio_2016.njsproj", "{8BE2A893-0AEF-4DF4-8CAC-FBBC2520D4BF}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "portfolio_2016.Azure", "portfolio_2016.Azure\portfolio_2016.Azure.ccproj", "{4D0ECFEB-0D37-400E-93E6-12D4E34350BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8BE2A893-0AEF-4DF4-8CAC-FBBC2520D4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE2A893-0AEF-4DF4-8CAC-FBBC2520D4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE2A893-0AEF-4DF4-8CAC-FBBC2520D4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0ECFEB-0D37-400E-93E6-12D4E34350BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0ECFEB-0D37-400E-93E6-12D4E34350BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0ECFEB-0D37-400E-93E6-12D4E34350BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0ECFEB-0D37-400E-93E6-12D4E34350BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
