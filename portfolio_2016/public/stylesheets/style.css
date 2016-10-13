@@ -3804,7 +3804,7 @@ blockquote,
 th,
 td {
   margin: 0;
-  padding: 0; }
+  padding: 10px; }
 
 /* Default Link Styles */
 a {
@@ -6666,3 +6666,5 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+
