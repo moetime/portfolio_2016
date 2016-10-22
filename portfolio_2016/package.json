@@ -1,0 +1,31 @@
+{
+  "name": "portfolio_2016",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "azure": "^1.2.0-preview",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "eslint": "^3.7.1",
+    "express": "~4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-tsc": "^1.2.4",
+    "gulp-zip": "^3.2.0",
+    "morgan": "~1.7.0",
+    "nodemailer": "^0.7.1",
+    "serve-favicon": "~2.3.0",
+    "typescript": "^2.0.3"
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "gulp-install": "^0.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
